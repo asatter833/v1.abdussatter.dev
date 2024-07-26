@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 body {
-	background: linear-gradient(239deg, #0e0000 -18.38%, #000 95.03%);
-	min-height: 100vh;
-	color: #fff;
-	font-family: "K2D", sans-serif;
+  background: linear-gradient(239deg, #092327 -18.38%, #090c0c 95.03%);
+  min-height: 100vh;
+  color: #fff;
+  font-family: "K2D", sans-serif;
 }

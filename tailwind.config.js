@@ -1,30 +1,30 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-	theme: {
-		extend: {
-			colors: {
-				primary: {
-					DEFAULT: "#ff0000",
-					light: "#ff6666",
-					dark: "#cc0000",
-					50: "#ff8080",
-					100: "#ff6666",
-					200: "#ff4d4d",
-					300: "#ff3333",
-					400: "#ff1a1a",
-					500: "#e60000",
-					600: "#b30000",
-					700: "#990000",
-					800: "#800000",
-					900: "#660000",
-				},
-			},
-			fontFamily: {
-				sans: ["K2D", "sans-serif"],
-				serif: ["K2D", "serif"],
-			},
-		},
-	},
-	plugins: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: "#6ccbcb",
+          light: "#c3ffff",
+          dark: "#366666",
+          50: "#cfffff",
+          100: "#c3ffff",
+          200: "#b7fefe",
+          300: "#9ffefe",
+          400: "#93fefe",
+          500: "#87fefe",
+          600: "#7ae5e5",
+          700: "#6ccbcb",
+          800: "#519898",
+          900: "#366666",
+        },
+      },
+      fontFamily: {
+        sans: ["K2D", "sans-serif"],
+        serif: ["K2D", "serif"],
+      },
+    },
+  },
+  plugins: [],
 };

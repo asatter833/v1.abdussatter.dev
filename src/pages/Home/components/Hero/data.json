@@ -1,27 +1,28 @@
 {
-	"name": "Tam",
-	"names": ["Ibrahim Sadik Tamim", "Tamim", "Tam"],
-	"about": "Building Digital Products, Brands & Experience.",
-	"email": "ibrahimsadiktamim@gmail.com",
-	"socials": [
-		{
-			"name": "Github",
-			"url": "https://github.com/tam11a"
-		},
-		{
-			"name": "LinkedIn",
-			"url": "https://www.linkedin.com/in/ibrahimsadiktamim/"
-		},
-		{
-			"name": "Dribbble",
-			"url": "https://dribbble.com/tam11a"
-		}
-	],
-	"companies": [
-		"companies/reserveit.svg",
-		"companies/pnd.svg",
-		"companies/fascino.svg",
-		"companies/rayos.svg",
-		"companies/planetx.svg"
-	]
+  "name": "Abdus Satter",
+  "username": "asatter833",
+  "pronouns": ["he", "him"],
+  "names": ["Abdus Satter Utsha", "Utsha", "asatter"],
+  "about": "Building the Web, One Line of Code at a Time.",
+  "email": "asatter833@gmail.com",
+  "socials": [
+    {
+      "name": "Github",
+      "url": "https://github.com/tam11a"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ibrahimsadiktamim/"
+    },
+    {
+      "name": "Dribbble",
+      "url": "https://dribbble.com/tam11a"
+    }
+  ],
+  "companies": [
+    "companies/reserveit.svg",
+    "companies/pnd.svg",
+    "companies/fascino.svg",
+    "companies/rayos.svg"
+  ]
 }
