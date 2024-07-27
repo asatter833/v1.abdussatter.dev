@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
 
   return (
     <>
-      <div className="mx-10 flex flex-row items-start justify-evenly gap-6 ">
+      <div className="mx-10 flex flex-col md:flex-row items-center md:items-start justify-evenly gap-6 ">
         <motion.div
           layout
           className="overflow-hidden mt-10 p-3 rounded-3xl border-4 border-primary-500 w-fit h-fit"
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             transition={{ type: "spring", stiffness: 50, when: "" }}
           />
         </motion.div>
-        <div className="flex flex-col items-start gap-4 pt-8">
+        <div className="flex flex-col items-center md:items-start gap-4 md:pt-8">
           <h1 className="text-2xl mt-8">
             Hi, I'm <span className="font-bold text-primary">{data.name}</span>{" "}
           </h1>
@@ -39,14 +39,14 @@ const Hero: React.FC = () => {
             &#64;{data.username} &middot; {data.pronouns.join("/")}
           </p>
 
-          <h2 className="text-4xl font-semibold text-left max-w-md">
+          <h2 className="text-4xl font-semibold text-center md:text-left max-w-md">
             {data.about}
           </h2>
           <div>
             {data.socials?.map((social, index) => (
               <React.Fragment key={index}>
                 {index !== 0 && (
-                  <span className="text-slate-400 font-semibold">/</span>
+                  <span className="text-slate-400 font-semibold"> / </span>
                 )}
                 <Link
                   to={social.url}
@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
       </div>
       <Slide
         delay={0.18}
-        className="flex flex-wrap items-center justify-center px-2 my-10"
+        className="md:flex items-center justify-center px-2 my-10"
       >
         <ContributionGraph />
       </Slide>
@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto px-2 my-20 gap-14">
+      <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-10 px-2 my-20 gap-14">
         <p className="max-w-md text-xl md:text-2xl font-semibold text-center md:text-left">
           Collaborate with brands & agencies to create impactful result.
         </p>

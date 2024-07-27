@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <svg
-        className="pointer-events-none fixed isolate z-50 opacity-100 mix-blend-soft-light"
+        className="pointer-events-none fixed isolate z-50 opacity-90 mix-blend-soft-light"
         width="100%"
         height="100%"
       >
