@@ -68,14 +68,14 @@ const Hero: React.FC = () => {
       >
         <ContributionGraph />
       </Slide>
-      <div className="mix-blend-luminosity flex flex-row flex-wrap items-center justify-evenly gap-7 mt-10 px-2">
+      <div className="mix-blend-luminosity flex flex-row flex-wrap items-center justify-evenly md:justify-between max-w-5xl mx-auto gap-7 mt-10 px-2">
         {data?.companies?.map((company, index) => (
           <div key={index}>
             <img src={company} className="h-16" />
           </div>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-10 px-2 my-20 gap-14">
+      <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-10 px-10 my-20 gap-14">
         <p className="max-w-md text-xl md:text-2xl font-semibold text-center md:text-left">
           Collaborate with brands & agencies to create impactful result.
         </p>
