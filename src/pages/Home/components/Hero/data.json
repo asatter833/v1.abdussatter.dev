@@ -7,17 +7,18 @@
   "email": "asatter833@gmail.com",
   "socials": [
     {
-      "name": "Github",
-      "url": "https://github.com/asatter833"
+      "name": "GitHub",
+      "url": "https://github.com/asatter833",
+      "icon": "mdi:github"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/asatter833/"
+      "url": "https://www.linkedin.com/in/asatter833/",
+      "icon": "mdi:linkedin"
     }
   ],
   "companies": [
     "companies/reserveit.svg",
-    "companies/pnd.svg",
     "companies/fascino.svg",
     "companies/rayos.svg"
   ]

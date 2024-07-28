@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Slide } from "@components/Slide";
 import ContributionGraph from "@components/GithubContribution/ContributionGraph";
+import { Icon } from "@iconify/react";
 // import { useAnimate, stagger } from "framer-motion";
 
 const Hero: React.FC = () => {
@@ -42,12 +43,12 @@ const Hero: React.FC = () => {
           <h2 className="text-4xl font-semibold text-center md:text-left max-w-md">
             {data.about}
           </h2>
-          <div>
+          <div className="flex items-center gap-1">
             {data.socials?.map((social, index) => (
               <React.Fragment key={index}>
-                {index !== 0 && (
+                {/* {index !== 0 && (
                   <span className="text-slate-400 font-semibold"> / </span>
-                )}
+                )} */}
                 <Link
                   to={social.url}
                   target="_blank"
@@ -55,33 +56,42 @@ const Hero: React.FC = () => {
                   className="inline-block text-primary 
                             font-semibold  hover:text-primary-500 transition-colors duration-300 tracking-widest"
                 >
-                  {social.name}
+                  <span className="flex flex-row items-center  gap-1">
+                    <Icon icon={social.icon} className="text-primary text-xl" />{" "}
+                    {social.name}
+                  </span>
                 </Link>
               </React.Fragment>
             ))}
           </div>
         </div>
       </div>
-      <Slide
-        delay={0.18}
-        className="md:flex items-center justify-center px-2 my-10"
-      >
-        <ContributionGraph />
-      </Slide>
-      <div className="mix-blend-luminosity flex flex-row flex-wrap items-center justify-evenly md:justify-between max-w-5xl mx-auto gap-7 mt-10 px-2">
+      <div className="lg:flex items-center justify-center">
+        <Slide delay={0.18} className=" px-6 my-10">
+          <ContributionGraph />
+        </Slide>
+      </div>
+      <div className=" flex flex-row flex-wrap items-center justify-evenly gap-7 mt-10 px-6">
         {data?.companies?.map((company, index) => (
           <div key={index}>
-            <img src={company} className="h-16" />
+            <img
+              src={company}
+              className="h-16 mix-blend-luminosity hover:mix-blend-normal transition duration-500 hover:scale-110"
+            />
           </div>
         ))}
+        <img
+          src={"companies/grade.svg"}
+          className="h-7 mix-blend-luminosity hover:mix-blend-normal transition duration-500 hover:scale-110"
+        />
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-10 px-10 my-20 gap-14">
+      <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto px-2 my-20 gap-14">
         <p className="max-w-md text-xl md:text-2xl font-semibold text-center md:text-left">
           Collaborate with brands & agencies to create impactful result.
         </p>
         <Link
           to={`mailto:${data.email}`}
-          className="px-10 py-3 bg-primary bg-opacity-10 rounded-lg border-2 border-primary text-primary font-extrabold tracking-widest"
+          className="px-10 py-3 bg-primary bg-opacity-10 rounded-full border-2 border-primary text-primary font-extrabold tracking-widest"
         >
           EMAIL ME
         </Link>
