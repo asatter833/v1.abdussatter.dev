@@ -37,7 +37,8 @@ const Hero: React.FC = () => {
             Hi, I'm <span className="font-bold text-primary">{data.name}</span>{" "}
           </h1>
           <p>
-            &#64;{data.username} &middot; {data.pronouns.join("/")}
+            &#64;{data.username} &middot; {data.profession} &middot;{" "}
+            {data.pronouns.join("/")}
           </p>
 
           <h2 className="text-4xl font-semibold text-center md:text-left max-w-md">
@@ -46,20 +47,13 @@ const Hero: React.FC = () => {
           <div className="flex items-center gap-1">
             {data.socials?.map((social, index) => (
               <React.Fragment key={index}>
-                {/* {index !== 0 && (
-                  <span className="text-slate-400 font-semibold"> / </span>
-                )} */}
                 <Link
                   to={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-primary 
-                            font-semibold  hover:text-primary-500 transition-colors duration-300 tracking-widest"
+                  className="flex flex-row items-center gap-1 text-primary font-semibold hover:text-primary-500 transition-colors duration-300 tracking-widest"
                 >
-                  <span className="flex flex-row items-center  gap-1">
-                    <Icon icon={social.icon} className="text-primary text-xl" />{" "}
-                    {social.name}
-                  </span>
+                  <Icon icon={social.icon} className="text-xl" /> {social.name}
                 </Link>
               </React.Fragment>
             ))}
