@@ -44,16 +44,17 @@ const Hero: React.FC = () => {
           <h2 className="text-4xl font-semibold text-center md:text-left max-w-md">
             {data.about}
           </h2>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-2 ">
             {data.socials?.map((social, index) => (
               <React.Fragment key={index}>
                 <Link
                   to={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-row items-center gap-1 text-primary font-semibold hover:text-primary-500 transition-colors duration-300 tracking-widest"
+                  className="flex flex-row items-center gap-1 font-semibold text-gray-300 hover:text-white transition-colors duration-300 tracking-widest"
                 >
-                  <Icon icon={social.icon} className="text-xl" /> {social.name}
+                  <Icon icon={social.icon} className="text-xl text-primary" />{" "}
+                  {social.name}
                 </Link>
               </React.Fragment>
             ))}

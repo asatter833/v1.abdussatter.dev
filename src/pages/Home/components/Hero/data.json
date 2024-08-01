@@ -16,6 +16,16 @@
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/asatter833/",
       "icon": "mdi:linkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/utsha_rashid/",
+      "icon": "mdi:instagram"
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net/abdussatter833",
+      "icon": "mage:behance"
     }
   ],
   "companies": [
