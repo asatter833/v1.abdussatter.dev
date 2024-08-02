@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           <h2 className="text-4xl font-semibold text-center md:text-left max-w-md">
             {data.about}
           </h2>
-          <div className="flex items-center gap-2 ">
+          <div className="flex items-center gap-2 flex-wrap max-w-md">
             {data.socials?.map((social, index) => (
               <React.Fragment key={index}>
                 <Link
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="lg:flex items-center justify-center">
+      <div className="md:flex items-center justify-center">
         <Slide delay={0.18} className=" px-6 my-10">
           <ContributionGraph />
         </Slide>
