@@ -59,6 +59,24 @@ const Hero: React.FC = () => {
               </React.Fragment>
             ))}
           </div>
+          {/* <div>
+            <h6>Stacks:</h6>
+            <div className="flex items-center gap-2 flex-wrap max-w-md">
+              {data.stacks?.map((social, index) => (
+                <React.Fragment key={index}>
+                  <Link
+                    to={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-row items-center gap-1 font-semibold text-gray-300 hover:text-white transition-colors duration-300 tracking-widest"
+                  >
+                    <Icon icon={social.icon} className="text-xl text-primary" />{" "}
+                    {social.name}
+                  </Link>
+                </React.Fragment>
+              ))}
+            </div>
+          </div> */}
         </div>
       </div>
       <div className="md:flex items-center justify-center">
