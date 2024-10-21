@@ -12,7 +12,7 @@ const Card: React.FC<{ job: CardType; rtl?: boolean }> = ({
         <img
           src={job.showcase.image}
           alt={job.company}
-          className="w-[95vw] md:max-w-sm max-h-[270px] object-cover object-top rounded mb-2"
+          className="w-[95vw] md:max-w-sm max-h-[270px] object-cover rounded mb-2"
         />
       </Link>
       <div className="flex flex-row items-center gap-2">

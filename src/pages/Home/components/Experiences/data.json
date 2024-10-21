@@ -1,6 +1,26 @@
 {
   "jobs": [
     {
+      "company": "Defined Solution",
+      "company_url": "https://definedsolution.com/",
+      "company_location": "Dhaka, Bangladesh.",
+      "description": "Defined Solution is an IT company specializing in creating custom online web applications. They provide tailored solutions for businesses, focusing on delivering user-friendly, scalable, and efficient web apps. With expertise in modern technologies, Defined Solution helps clients streamline operations and enhance their online presence through innovative, high-performance applications.",
+      "positions": [
+        {
+          "title": "Frontend Developer",
+          "start_date": "Oct 2023",
+          "end_date": "present",
+          "duration": "1 yr 1 mos",
+          "location_type": "Remote",
+          "job_type": "Full-time"
+        }
+      ],
+      "showcase": {
+        "image": "/tasks/defined-solution.svg",
+        "url": "https://definedsolution.com/"
+      }
+    },
+    {
       "company": "GRADE LIMITED",
       "company_url": "https://shop.gradebd.com/",
       "company_location": "Dhaka, Bangladesh.",
