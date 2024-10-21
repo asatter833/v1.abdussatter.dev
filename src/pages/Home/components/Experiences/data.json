@@ -1,33 +1,26 @@
 {
   "jobs": [
     {
-      "company": "Reserveit Bangladesh",
-      "company_url": "https://reserveitbd.com/",
-      "company_location": "Lalmatia, Dhaka, Bangladesh.",
-      "description": "Reserveit is the first online restaurant reservation platform based in Bangladesh. This is a simple and user-friendly application for selecting restaurants and booking seats for your next dine-out.",
+      "company": "GRADE LIMITED",
+      "company_url": "https://shop.gradebd.com/",
+      "company_location": "Dhaka, Bangladesh.",
+      "description": "Grade is the tech-enabled solution to rising prices and superfluous middlemen. By eliminating distributors and dealers, grade brings quality products at pocket-friendly prices, ensuring end-to-end digitalization. Whether Grade is a B2B partner or part of our employee network, experience smooth shopping in their tech-driven platform.",
       "positions": [
         {
-          "title": "Senior Full Stack Engineer",
-          "start_date": "Oct 2022",
-          "end_date": "Oct 2023",
-          "duration": "1 yr 1 mo",
-          "location_type": "Hybrid",
-          "job_type": "Full Time"
-        },
-        {
-          "title": "Full Stack Engineer",
-          "start_date": "Oct 2021",
-          "end_date": "Sept 2022",
-          "duration": "1 yr",
-          "location_type": "On-site",
-          "job_type": "Full Time"
+          "title": "Frontend Developer",
+          "start_date": "Oct 2023",
+          "end_date": "May 2023",
+          "duration": "8 mos",
+          "location_type": "Remote",
+          "job_type": "Contract"
         }
       ],
       "showcase": {
-        "image": "/tasks/reserveit.jpeg",
-        "url": "https://reserveitbd.com/"
+        "image": "/tasks/gradelimited.png",
+        "url": "https://shop.gradebd.com/"
       }
     },
+
     {
       "company": "Rayos Bangladesh",
       "company_url": "https://rayosbd.com/",
@@ -35,10 +28,10 @@
       "description": "Rayos, a multi-vendor marketplace, offers more than 20 categories of products, including health and beauty, cosmetics, electronics and etc. Rayos BD is dedicated to Change Experience via superior customer support and fulfillment, ensuring that consumers in every part of Bangladesh receive hassle-free product delivery.",
       "positions": [
         {
-          "title": "Lead Software Engineer",
-          "start_date": "Aug 2022",
+          "title": "Jr. Frontend Developer",
+          "start_date": "Sept 2022",
           "end_date": "Dec 2022",
-          "duration": "5 mos",
+          "duration": "4 mos",
           "location_type": "Remote",
           "job_type": "Contract"
         }

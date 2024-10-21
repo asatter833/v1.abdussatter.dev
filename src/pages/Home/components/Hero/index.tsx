@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Slide } from "@components/Slide";
 import ContributionGraph from "@components/GithubContribution/ContributionGraph";
 import { Icon } from "@iconify/react";
-// import { useAnimate, stagger } from "framer-motion";
 
 const Hero: React.FC = () => {
   const [dpLoading, setDpLoading] = React.useState(true);
